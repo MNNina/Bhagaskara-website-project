@@ -1,0 +1,226 @@
+.section-header{
+  background:url("../img/hero-bg.jpg") no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+.section-header .header{
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.section-header .icons a{
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  background: url("../img/bha.png") no-repeat;
+  width: 180px;
+  height: 180px;
+  display:inline-block;
+  &:hover{
+    background: url("../img/portbg.png") no-repeat ;
+  }
+  &::before{
+    margin:30px 0 0 55px;
+    content:'';
+    display:block;
+    width:70px;
+    height:70px;
+    background: url("../img/menu-icons.png")no-repeat;
+
+  }
+}
+
+.section-header .icons {
+  .services::before {
+    background-position: 0 -130px;
+  }
+  .portfolio::before {
+    background-position: 0 -195px;
+  }
+  .about::before {
+    background-position: 0 0;
+  }
+  .team::before {
+    background-position: 0 -68px;
+  }
+  .blog::before {
+    background-position: 0 -260px;
+  }
+  .contact::before {
+    background-position: 0 -325px;
+  }
+}
+
+
+.section-header .icons2 {
+  text-align: center;
+   .down{
+      display:inline-block;
+      width:58px;
+      height: 62px;
+      border:1px solid red;
+      background: url("../img/arr2.png") no-repeat;
+   }
+}
+
+.section-menu{
+  color: black;
+  height: 100px;
+  background-color: white;
+  background-size: cover;
+  margin: 0 auto;
+
+  .navigation{
+    width: 1110px;
+    margin: 20px auto;
+
+    nav{
+      float: right;
+    }
+
+    li{
+      display: inline-block;
+      margin-right: 15px;
+    }
+    a{
+      text-decoration: none;
+      color: black;
+      &:hover{
+        color:mediumorchid;
+      }
+    }
+  }
+  .logo2{
+    display:inline-block;
+  }
+  nav{
+    display: inline-block;
+  }
+}
+
+.love {
+  background: whitesmoke;
+  background-size: cover;
+  padding: 30px;
+  width: 100%;
+
+  .love-box {
+    width: 1110px;
+    margin: 0 auto;
+    height: 400px;
+
+    div {
+      display: inline-block;
+      width: 273px;
+      height: 400px;
+
+      h3 {
+        text-align: center;
+        color: gray;
+        margin-top: 50px;
+      }
+
+      p {
+        text-align: center;
+        color: gray;
+        margin-top: 20px;
+        line-height: 25.5px;
+      }
+
+      a {
+        display: block;
+        background-size: auto;
+        height: 195px;
+        width: 200px;
+        padding: 40px;
+        margin: 0 auto;
+      }
+      .heart {
+        background: url("../img/icons-sprite.png") no-repeat;
+        &:hover {
+          background: url("../img/icons-sprite-hover.png") no-repeat;
+        }
+      }
+      .diamond {
+        background: url("../img/icons-sprite.png") no-repeat;
+        background-position: 0 -200px;
+        &:hover {
+          background: url("../img/icons-sprite-hover.png") no-repeat;
+          background-position: 0 -200px;
+        }
+      }
+      .box {
+        background: url("../img/icons-sprite.png") no-repeat;
+        background-position: 0 -400px;
+        &:hover {
+          background: url("../img/icons-sprite-hover.png") no-repeat;
+          background-position: 0 -400px;
+        }
+      }
+      .phone {
+        background: url("../img/icons-sprite.png") no-repeat;
+        background-position: 0 -600px;
+        &:hover {
+          background: url("../img/icons-sprite-hover.png") no-repeat;
+          background-position: 0 -600px;
+        }
+      }
+    }
+  }
+}
+  .about1{
+    background: white;
+    background-size: cover;
+    padding: 30px;
+    width: 100%;
+    border: 1px solid red;
+
+    .about-us1{
+      width: 300px;
+      margin: 0 auto;
+      height: 150px;
+      position: relative;
+
+      span{
+        color:mediumorchid;
+      }
+
+      &:after{
+        content: ' ';
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        border-right: 1px solid mediumorchid;
+        border-top:1px solid mediumorchid;
+        top:-10px;
+        right: -10px;
+      }
+      &:before{
+        content: ' ';
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        border-left:1px solid mediumorchid;
+        border-bottom:1px solid mediumorchid;
+        bottom: 40px;
+        left: 0;
+
+      }
+
+      p{
+        font-size: 40px;
+        text-align: center;
+        padding: 10px;
+      }
+    }
+    .box1{
+      margin: 0 auto;
+      width:1110px;
+      height:600px;
+    }
+  }
+
+
+
