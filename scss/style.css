@@ -1182,7 +1182,7 @@ table {
       border-right: 1px solid mediumorchid;
       border-top: 1px solid mediumorchid;
       top: -10px;
-      right: -10px; }
+      right: 10px; }
     .about1 .about-us1:before {
       content: ' ';
       width: 30px;
@@ -1190,8 +1190,8 @@ table {
       position: absolute;
       border-left: 1px solid mediumorchid;
       border-bottom: 1px solid mediumorchid;
-      bottom: 40px;
-      left: 0; }
+      bottom: 70px;
+      left: 10px; }
     .about1 .about-us1 p {
       font-size: 40px;
       text-align: center;
@@ -1225,14 +1225,15 @@ table {
       height: 60px;
       color: #fff;
       background: mediumorchid;
-      border-radius: 5px;
+      border: none;
+      border-radius: 11px;
       border-bottom: 4px solid #7D1979; }
       .about1 .box1 button:hover {
         background: white;
         border: 1px solid mediumorchid;
         border-top: 4px solid #7D1979;
         color: mediumorchid;
-        border-radius: 5px; }
+        border-radius: 11px; }
 
 .bg {
   background: url("../img/section-bg.jpg") no-repeat;
@@ -1358,6 +1359,7 @@ table {
 .skills {
   background: white;
   background-size: cover;
+  height: 600px;
   padding: 30px;
   width: 100%; }
   .skills .our-skills {
@@ -1394,7 +1396,7 @@ table {
 .skills {
   width: 1110px;
   margin: 0 auto;
-  height: 400px; }
+  height: 600px; }
   .skills h3 {
     font-size: 24px;
     font-weight: 800;
@@ -1501,12 +1503,10 @@ table {
   .services_ .content-team1 {
     width: 100%;
     margin: 30px auto;
-    height: 600px;
     position: relative;
     text-align: center; }
     .services_ .content-team1 ._f {
       width: 100%;
-      height: 600px;
       display: block;
       margin-top: 120px; }
       .services_ .content-team1 ._f img {
@@ -1529,7 +1529,8 @@ table {
 .portfolio {
   background: white;
   background-size: cover;
-  width: 100%; }
+  width: 1110px;
+  margin: 0 auto; }
   .portfolio .our-portfolio {
     width: 400px;
     margin: 30px auto;
@@ -1598,10 +1599,22 @@ table {
     .portfolio .photo .img6 {
       display: inline-block; }
   .portfolio button {
-    display: inline-block;
+    margin: 30px 40px -10px 0;
+    display: block;
+    width: 150px;
+    height: 60px;
+    color: #fff;
     text-align: center;
-    width: 120px;
-    height: 60px; }
+    background: mediumorchid;
+    border: none;
+    border-radius: 11px;
+    border-bottom: 4px solid #7D1979; }
+    .portfolio button:hover {
+      background: white;
+      border: 1px solid mediumorchid;
+      border-top: 4px solid #7D1979;
+      color: mediumorchid;
+      border-radius: 11px; }
 
 .get-in {
   background: white;
@@ -1637,21 +1650,74 @@ table {
       font-size: 40px;
       text-align: center;
       padding: 10px; }
-  .get-in form {
-    margin: 100px auto;
-    margin-left: 60px;
-    width: 100%; }
-    .get-in form input[type="text"] {
-      width: 300px;
-      height: 50px;
-      display: block; }
-    .get-in form input[type="email"] {
-      width: 300px;
-      height: 50px;
-      display: block; }
-    .get-in form textarea {
-      width: 400px;
-      height: 400px;
-      resize: none; }
+  .get-in .get-in-all {
+    width: 1110px;
+    height: 700px;
+    margin: 0 auto; }
+    .get-in .get-in-all form {
+      margin: 0 auto;
+      display: inline-block;
+      position: relative; }
+      .get-in .get-in-all form input[type="text"] {
+        padding: 5px;
+        margin-top: 30px;
+        height: 50px;
+        display: block;
+        width: 500px; }
+      .get-in .get-in-all form input[type="email"] {
+        padding: 5px;
+        margin-top: 30px;
+        height: 50px;
+        display: block;
+        width: 500px; }
+      .get-in .get-in-all form textarea {
+        padding: 5px;
+        margin-top: 30px;
+        height: 400px;
+        resize: none;
+        width: 500px; }
+      .get-in .get-in-all form button {
+        margin: 30px 40px -10px 0;
+        display: block;
+        width: 150px;
+        height: 60px;
+        color: #fff;
+        text-align: center;
+        background: mediumorchid;
+        border: none;
+        border-radius: 11px;
+        border-bottom: 4px solid #7D1979; }
+        .get-in .get-in-all form button:hover {
+          background: white;
+          border: 1px solid mediumorchid;
+          border-top: 4px solid #7D1979;
+          color: mediumorchid;
+          border-radius: 11px; }
+    .get-in .get-in-all .text-in {
+      float: right;
+      display: inline-block;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 2;
+      width: 40%; }
+      .get-in .get-in-all .text-in .text-in1 {
+        display: block; }
+      .get-in .get-in-all .text-in .text-in2 {
+        display: block;
+        margin: 100px 0 100px 0; }
+      .get-in .get-in-all .text-in a {
+        text-decoration: none;
+        border: 1px solid #000000;
+        padding: 15px 20px 15px 20px;
+        border-radius: 50%;
+        margin-top: 150px; }
+        .get-in .get-in-all .text-in a:hover {
+          border: 1px solid mediumorchid;
+          color: mediumorchid; }
+    .get-in .get-in-all .img-logo {
+      margin-top: 50px;
+      width: 100%;
+      display: inline-block;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
